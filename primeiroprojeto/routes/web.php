@@ -28,3 +28,12 @@ Route::post('/resposta6',[PrimeiraController::class,'resp6']);
 
 Route::get('/exercicio7',[PrimeiraController::class,'abrirForm7']);
 Route::post('/resposta7',[PrimeiraController::class,'resp7']);
+
+Route::get('/exercicio8',[PrimeiraController::class,'abrirForm8']);
+Route::post('/resposta8',[PrimeiraController::class,'resp8']);
+
+Route::get('/exercicio9',[PrimeiraController::class,'abrirForm9']);
+Route::post('/resposta9',[PrimeiraController::class,'resp9']);
+
+Route::get('/exercicio10',[PrimeiraController::class,'abrirForm10']);
+Route::post('/resposta10',[PrimeiraController::class,'resp10']);

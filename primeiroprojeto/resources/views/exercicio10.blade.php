@@ -3,17 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fahrenheit Para Celsius</title>
+<title>Perímetro do Retângulo</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
 </head>
 <body> 
 <div class="container py-3">
-<h1>Fahrenheit Para Celsius  </h1>
-<form method="post" action="/resposta7">
+<h1>Perímetro do Retângulo</h1>
+<form method="post" action="/resposta10">
     @csrf
 <div class="mb-3">
-              <label for="valor1" class="form-label">Informe a temperatura</label>
-              <input type="number" step="any" id="valor1" name="valor1" class="form-control" required="">
+              <label for="valor1" class="form-label">Largura</label>
+              <input type="number" id="valor1" name="valor1" class="form-control" required="">
+            </div><div class="mb-3">
+              <label for="valor2" class="form-label">Altura</label>
+              <input type="number" id="valor2" name="valor2" class="form-control" required="">
             </div>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>

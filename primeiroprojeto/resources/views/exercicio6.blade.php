@@ -13,7 +13,7 @@
     @csrf
 <div class="mb-3">
               <label for="valor1" class="form-label">Informe a temperatura</label>
-              <input type="number" id="valor1" name="valor1" class="form-control" required="">
+              <input type="number" step="any" id="valor1" name="valor1" class="form-control" required="">
             </div>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
