@@ -1,12 +1,15 @@
 <?php
 
+use App\Http\Controllers\ClienteController;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PrimeiraController;
 
 // metodo get é estatico, eu nao preciso instanciar um objeto para usar o metodo estatico (orientacao objeto)
-Route::get('/', function () {
-    return view('index');
-});
+
+
+Route::resource('clientes',ClienteController::class);
+//Litar Clis
 
 Route::get('/exercicio1',[PrimeiraController::class,'abrirForm']);
 Route::post('/resposta1',[PrimeiraController::class,'resp1']);
