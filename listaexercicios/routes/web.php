@@ -8,8 +8,6 @@ use App\Http\Controllers\PrimeiraController;
 // metodo get é estatico, eu nao preciso instanciar um objeto para usar o metodo estatico (orientacao objeto)
 
 
-Route::resource('clientes',ClienteController::class);
-//Litar Clis
 
 Route::get('/exercicio1',[PrimeiraController::class,'abrirForm']);
 Route::post('/resposta1',[PrimeiraController::class,'resp1']);
@@ -40,3 +38,33 @@ Route::post('/resposta9',[PrimeiraController::class,'resp9']);
 
 Route::get('/exercicio10',[PrimeiraController::class,'abrirForm10']);
 Route::post('/resposta10',[PrimeiraController::class,'resp10']);
+
+Route::get('/exercicio11',[PrimeiraController::class,'abrirForm11']);
+Route::post('/resposta11',[PrimeiraController::class,'resp11']);
+
+Route::get('/exercicio12',[PrimeiraController::class,'abrirForm12']);
+Route::post('/resposta12',[PrimeiraController::class,'resp12']);
+
+Route::get('/exercicio13',[PrimeiraController::class,'abrirForm13']);
+Route::post('/resposta13',[PrimeiraController::class,'resp13']);
+
+Route::get('/exercicio14',[PrimeiraController::class,'abrirForm14']);
+Route::post('/resposta14',[PrimeiraController::class,'resp14']);
+
+Route::get('/exercicio15',[PrimeiraController::class,'abrirForm15']);
+Route::post('/resposta15',[PrimeiraController::class,'resp15']);
+
+Route::get('/exercicio16',[PrimeiraController::class,'abrirForm16']);
+Route::post('/resposta16',[PrimeiraController::class,'resp16']);
+
+Route::get('/exercicio17',[PrimeiraController::class,'abrirForm17']);
+Route::post('/resposta17',[PrimeiraController::class,'resp17']);
+
+Route::get('/exercicio18',[PrimeiraController::class,'abrirForm18']);
+Route::post('/resposta18',[PrimeiraController::class,'resp18']);
+
+Route::get('/exercicio19',[PrimeiraController::class,'abrirForm19']);
+Route::post('/resposta19',[PrimeiraController::class,'resp19']);
+
+Route::get('/exercicio20',[PrimeiraController::class,'abrirForm20']);
+Route::post('/resposta20',[PrimeiraController::class,'resp20']);
